@@ -14,13 +14,13 @@
         tab_left: tab_left {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LCTRL &kp LSHFT &kp LEFT>;
+            bindings = <&kp LGUI &kp LSHFT &kp LBRC>;
         };
         
         tab_right: tab_right {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LCTRL &kp LSHFT &kp RIGHT>;
+            bindings = <&kp LGUI &kp LSHFT &kp RBRC>;
         };
     };
 
