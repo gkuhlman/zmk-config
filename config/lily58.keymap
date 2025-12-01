@@ -15,14 +15,14 @@
         
         combo_tab_left {
             timeout-ms = <50>;
-            key-positions = <40 32>;  // ctrl + i positions
+            key-positions = <40 33>;  // ctrl + j positions
             bindings = <&tab_left>;
             layers = <2>;  // only active on raise layer
         };
         
         combo_tab_right {
             timeout-ms = <50>;
-            key-positions = <40 33>;  // ctrl + o positions  
+            key-positions = <40 34>;  // ctrl + k positions  
             bindings = <&tab_right>;
             layers = <2>;  // only active on raise layer
         };
